@@ -1,4 +1,6 @@
 micronaut:
+  server:
+    port: 10
   application:
     name: transacaoMicronaut
 datasources:
@@ -11,3 +13,7 @@ datasources:
     dialect: H2
 kafka.bootstrap.servers: localhost:9092
 jpa.default.properties.hibernate.hbm2ddl.auto: update
+
+kafka:
+  bootstrap:
+    servers: localhost:9092
